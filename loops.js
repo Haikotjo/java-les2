@@ -6,6 +6,10 @@
 // Hoera!
 // ==========================================
 
+for (let i = 0; i < 3; i++) {
+    console.log("hoera!")
+}
+
 
 
 // ==========================================
@@ -18,6 +22,10 @@
 // klaar!
  // ==========================================
 
+for (let i = 0; i < 5; i++) {
+    console.log("Loop...")
+}
+console.log("klaar")
 
 
 // ==========================================
@@ -33,7 +41,14 @@
 // Tip: een getal is oneven als je het door 2 deelt en er blijft nog iets over. Een getal is even als je het deelt door 2 en er blijft niets over. Google daarom eens naar 'mdn webdocs remainder operator'.
 // ==========================================
 
+for (let i = 0; i < 15; i++) {
+    if ((i % 2) === 0) {
+        console.log(i + " even")
+    } else {
+        console.log(i + " oneven")
+    }
 
+}
 
 // ==========================================
 // [BONUSOPDRACHT] - optioneel: maak een for-loop die van 0 tot 9 loopt en de getallen 0 tot 9 logt.
@@ -50,4 +65,14 @@
 // >> 8
 // >> 9
 // ==========================================
+
+for (let i = 0; i < 10; i++) {
+    if (i < 3){
+        console.log(i)
+    }else if (i < 6){
+        console.log("> " + i)
+    }else{
+        console.log(">> " + i)
+    }
+}
 
